@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "stale_error_code": "E_STALE_OFFSET",
+  "value_error_code": "E_BAD_OFFSET",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "offsets": [], "water": 0, "lagging": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "report", "replica": "a", "offset": 10 },
+    { "id": 2, "kind": "report", "replica": "b", "offset": 4 },
+    { "id": 3, "kind": "report", "replica": "c", "offset": 6 },
+    { "id": 4, "kind": "report", "replica": "b", "offset": 8 }
+  ]
+}
